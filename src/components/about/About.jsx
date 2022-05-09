@@ -1,4 +1,5 @@
 import "./about.css"
+import selfie from "../../img/selfie.jpeg"
 
 const About = () => {
     return (
@@ -6,7 +7,7 @@ const About = () => {
             <div className="a-left">
                 <div className="a-card bg"></div>
                 <div className="a-card">
-                    <img src="https://cdn.pixabay.com/photo/2016/08/08/09/17/avatar-1577909_1280.png" alt="" className="a-img" />
+                    <img src={selfie} alt="" className="a-img" />
                 </div>
             </div>
             <div className="a-right">
