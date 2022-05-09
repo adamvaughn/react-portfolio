@@ -12,15 +12,15 @@ const Contact = () => {
                     <div className="c-info">
                     <div className="c-info-item">
                             <img src={email} alt="" className="c-icon" />
-                            adamdvaughn@gmail.com
+                            <a href="mailto:adamdvaughn@gmail.com">Email</a>
                         </div>
                         <div className="c-info-item">
                             <img src={GitHub} alt="" className="c-icon" />
-                            https://github.com/adamvaughn
+                            <a href="https://github.com/adamvaughn">GitHub</a>
                         </div>
                         <div className="c-info-item">
                             <img src={LinkedIn} alt="" className="c-icon" />
-                            https://www.linkedin.com/in/adam-vaughn-99584b116/
+                            <a href="https://www.linkedin.com/in/adam-vaughn-99584b116/">LinkedIn</a>
                         </div>
                     </div>
                 </div>
