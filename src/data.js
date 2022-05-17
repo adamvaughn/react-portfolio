@@ -1,7 +1,7 @@
 export const projects = [
     {
         id: 1,
-        img: "https://adamvaughn.github.io/portfolio/assets/images/superfan.jpeg",
+        img: require("./img/superfan.png"),
         link: "https://comcel1.github.io/super-fan/",
     },
     {
@@ -11,22 +11,22 @@ export const projects = [
     },
     {
         id: 3,
-        img: "https://adamvaughn.github.io/portfolio/assets/images/weather.jpeg",
+        img: require("./img/weather.png"),
         link: "https://adamvaughn.github.io/weather-dashboard/",
     },
     {
         id: 4,
-        img: "https://adamvaughn.github.io/portfolio/assets/images/run-buddy.jpeg",
+        img: require("./img/runbuddy.png"),
         link: "https://adamvaughn.github.io/run-buddy/",
     },
     {
         id: 5,
-        img: "https://adamvaughn.github.io/portfolio/assets/images/lock.jpg",
+        img: require("./img/password.png"),
         link: "https://adamvaughn.github.io/password-generator/",
     },
     {
         id: 6,
-        img: "https://adamvaughn.github.io/portfolio/assets/images/baconcheeseburger.jpg",
+        img: require("./img/feedyourcamera.png"),
         link: "https://feed-your-camera.herokuapp.com",
     },
 ];
