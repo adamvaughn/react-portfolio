@@ -13,10 +13,10 @@ const About = () => {
             <div className="a-right">
                 <h1 className="a-title">About Me</h1>
                 <p className="a-sub">
-                    A text placeholder
+                    Hey! I'm Adam Vaughn, I'm fresh out of a coding bootcamp and looking to make a name for myself. I come from a background in pharmacy as a CPhT of 12 years!
                 </p>
                 <p className="a-desc">
-                    More placeholder text.
+                    I've been working with the MERN stack and have experience with HTML, CSS, JavaScript, React, and of course Git!
                 </p>
             </div>
         </div>
