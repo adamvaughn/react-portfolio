@@ -6,9 +6,9 @@ const ProjectList = () => {
     return (
         <div className="pl">
             <div className="pl-texts">
-                <h1 className="pl-title">Project List Title</h1>
+                <h1 className="pl-title">Projects I've worked on</h1>
                 <p className="pl-desc">
-                    Projects I've worked on
+                    Some light projects that I've done some work with, both solo and in a group setting.
                 </p>
             </div>
             <div className="pl-list">
