@@ -2,6 +2,7 @@ import "./contact.css";
 import gmail from "../../img/gmail.png";
 import GitHub from "../../img/GitHub-Mark-64px.png";
 import LinkedIn from "../../img/In-Blue-Logo.png.original.png";
+import Resume from "../../img/resumeicon.png";
 import { useContext, useRef, useState } from "react";
 import emailjs from '@emailjs/browser';
 import { ThemeContext } from "../../context";
@@ -45,11 +46,15 @@ const Contact = () => {
                         </div>
                         <div className="c-info-item">
                             <img src={GitHub} alt="" className="c-icon" />
-                            <a href="https://github.com/adamvaughn">GitHub</a>
+                            <a href="https://github.com/adamvaughn" target="_blank" rel="noreferrer">GitHub</a>
                         </div>
                         <div className="c-info-item">
                             <img src={LinkedIn} alt="" className="c-icon" />
-                            <a href="https://www.linkedin.com/in/adam-vaughn-99584b116/">LinkedIn</a>
+                            <a href="https://www.linkedin.com/in/adam-vaughn-99584b116/" target="_blank" rel="noreferrer">LinkedIn</a>
+                        </div>
+                        <div className="c-info-item">
+                            <img src={Resume} alt="" className="c-icon" />
+                            <a href="https://docs.google.com/document/d/1zXU1uvqMSTAsq_W8mRIQr2lLPaB5Jk1FmbADPV2Hd2c/edit?usp=sharing" target="_blank" rel="noreferrer">Résumé</a>
                         </div>
                     </div>
                 </div>
