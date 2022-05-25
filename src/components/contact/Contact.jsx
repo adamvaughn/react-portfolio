@@ -52,10 +52,10 @@ const Contact = () => {
                             <img src={LinkedIn} alt="" className="c-icon" />
                             <a href="https://www.linkedin.com/in/adam-vaughn-99584b116/" target="_blank" rel="noreferrer">LinkedIn</a>
                         </div>
-                        <div className="c-info-item">
+                        {/* <div className="c-info-item">
                             <img src={Resume} alt="" className="c-icon" />
                             <a href="https://docs.google.com/document/d/1zXU1uvqMSTAsq_W8mRIQr2lLPaB5Jk1FmbADPV2Hd2c/edit?usp=sharing" target="_blank" rel="noreferrer">Résumé</a>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
                 <div className="c-right">
