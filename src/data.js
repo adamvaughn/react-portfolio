@@ -26,7 +26,7 @@ export const projects = [
     },
     {
         id: 6,
-        img: require("./img/feedyourcamera.png"),
-        link: "https://feed-your-camera.herokuapp.com",
+        img: require("./img/videodevs.png"),
+        link: "https://evening-scrubland-24063.herokuapp.com",
     },
 ];

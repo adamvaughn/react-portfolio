@@ -2,7 +2,7 @@ import "./contact.css";
 import gmail from "../../img/gmail.png";
 import GitHub from "../../img/GitHub-Mark-64px.png";
 import LinkedIn from "../../img/In-Blue-Logo.png.original.png";
-import Resume from "../../img/resumeicon.png";
+// import Resume from "../../img/resumeicon.png";
 import { useContext, useRef, useState } from "react";
 import emailjs from '@emailjs/browser';
 import { ThemeContext } from "../../context";
